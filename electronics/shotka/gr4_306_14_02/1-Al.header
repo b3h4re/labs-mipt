@@ -1,0 +1,46 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+       gr4_306_14_02                 1-Al
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739662.650286                    0
+
+              File:          \1-Al\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.652048                    0
+
+              File:          \1-Al\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.653595                    0
+
+              File:          \1-Al\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   5           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.655208                    0
+
+              File:          \1-Al\5.data
+
+______________________________________________________
+

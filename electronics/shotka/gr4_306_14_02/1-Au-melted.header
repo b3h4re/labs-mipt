@@ -1,0 +1,46 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+       gr4_306_14_02          1-Au-melted
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739662.661629                    0
+
+              File:   \1-Au-melted\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.663079                    0
+
+              File:   \1-Au-melted\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.664199                    0
+
+              File:   \1-Au-melted\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.665387                    0
+
+              File:   \1-Au-melted\4.data
+
+______________________________________________________
+

@@ -3,6 +3,9 @@
 *.xlsx
 *.docx
 
+6/electronics/2/data16.txt
+6/electronics/2/data24.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

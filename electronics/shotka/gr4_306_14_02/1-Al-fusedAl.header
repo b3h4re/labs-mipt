@@ -1,0 +1,26 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+       gr4_306_14_02         1-Al-fusedAl
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739662.677238                    0
+
+              File:  \1-Al-fusedAl\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.678482                    0
+
+              File:  \1-Al-fusedAl\2.data
+
+______________________________________________________
+

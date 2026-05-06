@@ -1,0 +1,56 @@
+B1500A file ver 2.0
+
+              Sample              Contact
+       gr4_306_14_02                 1-Au
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   1                DC IV
+
+      Measurement ID             SeriesID
+       739662.656032                    0
+
+              File:          \1-Au\1.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   2                DC IV
+
+      Measurement ID             SeriesID
+       739662.656691                    0
+
+              File:          \1-Au\2.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   3           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.658071                    0
+
+              File:          \1-Au\3.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   4           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.659158                    0
+
+              File:          \1-Au\4.data
+
+______________________________________________________
+
+  Measurement Number     Measurement type
+                   6           CVSweepNew
+
+      Measurement ID             SeriesID
+       739662.660442                    0
+
+              File:          \1-Au\6.data
+
+______________________________________________________
+
