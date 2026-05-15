@@ -1,0 +1,219 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath}
+\usepackage{array}
+
+\begin{document}
+
+\section*{6.2}
+
+Та же схема, но:
+\[
+R \longleftrightarrow \text{квадратичный резонатор},
+\qquad
+U \text{ замкнуто}.
+\]
+
+\subsection*{1. При $R$}
+
+Частота колебаний:
+\[
+f_0 = 1{,}014\ \text{МГц}.
+\]
+
+Напряжение:
+\[
+U_{\text{вых}} = 9658\ \text{мВ}.
+\]
+
+\subsection*{2. Воткнули квадратичный резонатор}
+
+При
+\[
+C_2 = 20\ \text{пФ},
+\qquad
+A = 6000\ \text{мВ}.
+\]
+
+При
+\[
+C_2 = 47\ \text{пФ},
+\qquad
+A = 9130\ \text{мВ}.
+\]
+
+При этом подстроили контур.
+
+\subsection*{3. Добротность}
+
+\[
+\Delta C = 20\ \text{пФ},
+\qquad
+f = 1{,}000\ \text{МГц}.
+\]
+
+\[
+\Delta f = 994{,}0 - 974{,}0\ \text{кГц}
+= 20\ \text{кГц}.
+\]
+
+\[
+\Delta f_k = 1{,}001 - 0{,}995\ \text{МГц}
+= 6\ \text{кГц}.
+\]
+
+\[
+\frac{\Delta f_k}{\Delta f}
+=
+\frac{Q}{Q_k}.
+\]
+
+Отсюда:
+\[
+Q_k = Q \frac{\Delta f}{\Delta f_k}
+\approx 83{,}3.
+\]
+
+\subsection*{4. При $C_s = 150\ \text{пФ}$}
+
+\[
+C_s = 150\ \text{пФ}.
+\]
+
+\[
+\Delta f_k = 1{,}001 - 0{,}998\ \text{МГц}
+= 3\ \text{кГц}.
+\]
+
+\[
+\frac{\Delta f_k}{f_k}
+=
+\frac{C_k}{2C_s}.
+\]
+
+\[
+C_k = 2C_s\frac{\Delta f_k}{f_k}
+\approx 1\ \text{пФ}.
+\]
+
+\[
+L_k =
+\frac{1}{4\pi^2 f_k^2 C_k}
+\approx 25\ \text{мГн}.
+\]
+
+\[
+R_k =
+\frac{1}{2\pi f_k C_k}
+\approx 1{,}6 \cdot 10^5\ \Omega.
+\]
+
+\[
+r_k =
+\frac{R_k}{Q_k}
+\approx 1{,}917\ \text{к}\Omega.
+\]
+
+\subsection*{5. Изменение частоты при $R = 300\ \Omega$}
+
+Частота не меняется в пределах точности измерений при
+\[
+R = 300\ \Omega.
+\]
+
+\[
+\begin{array}{|c|c|}
+\hline
+U_{\text{п}},\ \text{В} & f,\ \text{МГц} \\
+\hline
+-12 & - \\
+\hline
+-11 & - \\
+\hline
+-10 & 0{,}998 \\
+\hline
+-9 & 0{,}994 \\
+\hline
+-8 & - \\
+\hline
+-7{,}2 & 0{,}996 \\
+\hline
+\end{array}
+\]
+
+Вывод:
+\[
+f \approx \mathrm{const}.
+\]
+
+\section*{6.3}
+
+\subsection*{1. Ёмкости}
+
+\[
+C_6 = 150\ \text{пФ},
+\qquad
+C_7 = 1{,}02\ \text{нФ},
+\qquad
+C_8 = 361\ \text{пФ}.
+\]
+
+Для последовательного соединения:
+\[
+C =
+\left(
+\frac{1}{C_6}
++
+\frac{1}{C_7}
++
+\frac{1}{C_8}
+\right)^{-1}.
+\]
+
+По записи:
+\[
+C \approx 15 \cdot 10^{-12}\ \text{Ф}
+=
+15\ \text{пФ}.
+\]
+
+Частота генератора:
+\[
+f_g =
+f_k\left(
+1 + \frac{C_k}{2C}
+\right)
+=
+1{,}034\ \text{МГц}.
+\]
+
+Вывод:
+\[
+\text{частота в пределах погрешности совпадает}.
+\]
+
+\subsection*{2. При изменении $C_7$}
+
+\[
+C_7^{*} = 471\ \text{пФ}.
+\]
+
+\[
+\Delta f_g =
+-
+f_k
+\frac{\Delta C_3 C_k}{2C_3^2}.
+\]
+
+Знак минус означает, что частота уменьшается.
+
+\subsection*{3. Итог}
+
+\[
+\text{частота не меняется}.
+\]
+
+\end{document}
